@@ -19,8 +19,6 @@
     chosen { zmk,physical-layout = &five_col_layout; };
 };
 
-&kscan0 { wakeup-source; };
-
 / {
     behaviors {
         hml: homerow_mods_left {
